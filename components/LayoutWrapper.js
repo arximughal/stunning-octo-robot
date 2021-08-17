@@ -7,6 +7,7 @@ import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import { useTheme } from 'next-themes'
+import Image from 'next/image'
 
 const LayoutWrapper = ({ children }) => {
   const { theme } = useTheme()
